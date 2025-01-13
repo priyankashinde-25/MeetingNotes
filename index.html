@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dist/main.css">
+  <title>Meeting Notes App</title>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <h2>Notes List</h2>
+      <div id="notes-list" class="notes-list"></div>
+      <button id="create-note-btn" class="create-note-btn">Create Note</button>
+    </div>
+    <div id="note-details" class="note-details hidden">
+      <h2 id="details-title"></h2>
+      <p id="details-content"></p>
+      <ul id="details-action-items"></ul>
+      <button id="edit-note-btn" class="edit-note-btn">Edit</button>
+    </div>
+    <div id="note-editor" class="note-editor hidden">
+      <h2>Edit Note</h2>
+      <label for="note-title">Title:</label>
+      <input type="text" id="note-title" class="note-title" required>
+      <label for="note-content">Content:</label>
+      <textarea id="note-content" class="note-content" rows="4" required></textarea>
+      <h3>Action Items:</h3>
+      <ul id="action-items" class="action-items"></ul>
+      <input type="text" id="action-item" class="action-item" placeholder="Add Action Item">
+      <button id="add-action-item-btn" class="add-action-item-btn">Add Action Item</button>
+      <button id="save-note-btn" class="save-note-btn">Save</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
