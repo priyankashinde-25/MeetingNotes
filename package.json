@@ -1,0 +1,15 @@
+{
+  "name": "assignment-6-priyanka8819",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/qTgPTjVw)",
+  "main": "script.js",
+  "scripts": {
+    "sass": "sass scss/styles.scss dist/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.71.1",
+    "scss": "^0.2.4"
+  }
+}
